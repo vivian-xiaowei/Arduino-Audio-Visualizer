@@ -1,0 +1,127 @@
+(footprint "3.5mm Stereo Jack"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca465bab-1aa0-499b-871f-f0bb96ccff0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3.5mm Stereo Jack"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "42286560-6226-472e-ad60-e36a82e3beeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61ddc1b6-30cf-46a5-a4fe-9c4a36d65453")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85ba3c5a-4dea-418b-95ec-9bbc7bf9c8dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5246369-a592-4fbc-b45d-d3d68373fd88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.1 -3.6)
+		(end -5.1 3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c4aabca2-80a5-428b-bfb5-98d0dccf6b42")
+	)
+	(fp_rect
+		(start -7 -3.6)
+		(end 7.5 3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e15ee2f6-ca31-481a-8370-50469ab0598a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dacf7165-949b-4c1d-aa29-543295ef5df8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "R" thru_hole rect
+		(at 6.4 -2.25)
+		(size 2 1.5)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7608f44b-ef95-4b89-9602-14334c321325")
+	)
+	(pad "S" thru_hole rect
+		(at 1.1 1.5)
+		(size 2 1.5)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "457d8a05-ea03-4a8c-ac09-937799134f1e")
+	)
+	(pad "T" thru_hole rect
+		(at 6.4 2.25)
+		(size 2 1.5)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96d366be-b72b-4820-81c0-5c4c40053d89")
+	)
+)

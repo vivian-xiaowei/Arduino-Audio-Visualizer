@@ -30,6 +30,13 @@ The Arduino Audio Visualizing Shield is a music visualizer designed to process a
 <img src="PCB schematic.png" alt="PCB Schematic Design" width="800">
 
 
+## Demo Video
+
+Watch the demo video here:
+
+[![Video Thumbnail](https://img.youtube.com/vi/r95Zd4fWf6s/0.jpg)](https://www.youtube.com/watch?v=r95Zd4fWf6s)
+
+
 ## Challenges and Learning
 
 - **Hardware Design**: Learned to use KiCad for schematic and PCB layout design.

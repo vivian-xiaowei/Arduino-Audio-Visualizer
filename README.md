@@ -1,4 +1,4 @@
-# Arduino Audio Visualizing Shield
+# Arduino Audio Visualizer
 
 \
 *A Grade 12 Computer Engineering Project*
